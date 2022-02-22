@@ -7,5 +7,3 @@ if ($_SESSION['id']) {
 } else {
     echo 'iltimos ro\'yxatdan o\'ting';
 }
-
-echo '123321';

@@ -11,33 +11,33 @@
 
 // 6-mashq
 
-//$n = readline();
-//
-//$son = readline();
-//
-//$osishtartibida = true;
-//$kamayishtartibida = true;
-//
-//for ($i = 2; $i <= $n; $i++) {
-//    $oldingison = $son;
-//    $son = readline();
-//    if ($osishtartibida && $son > $oldingison) {
-//        $kamayishtartibida = false;
-//    } elseif ($kamayishtartibida && $son < $oldingison) {
-//        $osishtartibida = false;
-//    } else {
-//        $osishtartibida = false;
-//        $kamayishtartibida = false;
-//    }
-//}
-//
-//if ($osishtartibida) {
-//    echo 'o\'sish tartibida';
-//} elseif ($kamayishtartibida) {
-//    echo 'kamayish tartibida' ;
-//} else {
-//    echo 'na o\'sish na kamaiysh tartibida';
-//}
+$n = readline();
+
+$son = readline();
+
+$osishtartibida = true;
+$kamayishtartibida = true;
+
+for ($i = 2; $i <= $n; $i++) {
+    $oldingison = $son;
+    $son = readline();
+    if ($osishtartibida && $son > $oldingison) {
+        $kamayishtartibida = false;
+    } elseif ($kamayishtartibida && $son < $oldingison) {
+        $osishtartibida = false;
+    } else {
+        $osishtartibida = false;
+        $kamayishtartibida = false;
+    }
+}
+
+if ($osishtartibida) {
+    echo 'o\'sish tartibida';
+} elseif ($kamayishtartibida) {
+    echo 'kamayish tartibida' ;
+} else {
+    echo 'na o\'sish na kamaiysh tartibida';
+}
 
 // 5-mashq
 
